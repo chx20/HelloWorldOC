@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F4E068E1AC5428500782268 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E068D1AC5428500782268 /* main.m */; };
+		3F4E06961AC548FD00782268 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E06951AC548FD00782268 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		3F4E068A1AC5428500782268 /* HelloWorldOC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloWorldOC; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F4E068D1AC5428500782268 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F4E06941AC548FD00782268 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		3F4E06951AC548FD00782268 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				3F4E068D1AC5428500782268 /* main.m */,
+				3F4E06941AC548FD00782268 /* Person.h */,
+				3F4E06951AC548FD00782268 /* Person.m */,
 			);
 			path = HelloWorldOC;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F4E06961AC548FD00782268 /* Person.m in Sources */,
 				3F4E068E1AC5428500782268 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +238,7 @@
 				3F4E06931AC5428500782268 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

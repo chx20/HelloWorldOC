@@ -16,11 +16,24 @@
  **/
 
 #import <Foundation/Foundation.h>
+#import "Person.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+
+        Person* p = [[Person alloc] init]; //会自动初始化成员变量为0.
+        p.age = 20;
+        [p printInfo];
+        
+        @try {
+            @throw p;
+        }
+        @catch (Person *exception) {
+            NSLog(@"@catch");
+        }
+        @finally {
+            NSLog(@"@finally");
+        }
     }
     return 0;
 }
